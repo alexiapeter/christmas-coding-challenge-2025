@@ -29,7 +29,7 @@ class Solution:
         if not head or not head.next:
             return
 
-        # Find middle (slow will point to middle)
+        # Find middle
         one, two = head, head
         while two and two.next:
             one = one.next
